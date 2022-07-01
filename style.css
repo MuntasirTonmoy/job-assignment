@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Palanquin", sans-serif;
+}
+
+.bg-image {
+  background-image: url(/image/bg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pop-up-btn {
+  display: block;
+  background-color: rgba(246, 215, 47, 1);
+  color: rgba(120, 2, 2, 1);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 5px;
+  padding: 9px 67px;
+  font-family: "Palanquin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+}
+
+#pop-up {
+  background: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  display: none;
+}
+.top-text {
+  background-color: #f6d72f;
+  margin-bottom: 47px;
+  color: #780202;
+  width: 439px;
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 700;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+
+.cross-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background-color: #f6d72f;
+  cursor: pointer;
+}
+
+.outer-circle {
+  width: 164px;
+  height: 164px;
+  background: #e0ffe5;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 138px;
+}
+
+.inner-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #4cd964;
+  border-radius: 100px;
+}
+
+.text {
+  width: 247px;
+  margin-left: 97px;
+  margin-bottom: 136px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.name-text {
+  color: #780202;
+}
+
+.close-btn {
+  width: 357px;
+  height: 47px;
+  background-color: rgba(246, 215, 47, 1);
+  padding: 9px, 67px;
+  margin: 0 41px 41px 41px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #780202;
+  cursor: pointer;
+}
